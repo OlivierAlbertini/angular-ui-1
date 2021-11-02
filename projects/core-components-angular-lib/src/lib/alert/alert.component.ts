@@ -15,7 +15,7 @@ import { Component, Directive, Input, OnChanges, SimpleChanges } from '@angular/
  * BaoAlertTitle provides no behaviors, instead serving as a purely visual treatment.
  */
 @Directive({
-  selector: 'bao-alert-title',
+  selector: 'alert-title',
   host: { class: 'alert-heading' }
 })
 export class BaoAlertTitle {}
