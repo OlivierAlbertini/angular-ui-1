@@ -1,0 +1,23 @@
+<div class="col-12 md-6 md-4">
+  <bao-summary>
+    <bao-label required="false"> Mon profil </bao-label>
+    <bao-summary-description>
+      Jonathan, Banks <br />
+      111 222 3625 <br />
+      1236, rue de l'Île <br />
+      T2C 8B4, Montréal, Qc <br />
+      Né le 10 janvier 1940
+    </bao-summary-description>
+    <button
+      bao-button
+      size="medium"
+      level="tertiary"
+      displayType="utility"
+      type="button"
+      (click)="onButtonClick($event)"
+    >
+      <span>Modifier</span>
+      <span><bao-icon title="Modifier" svgIcon="icon-edit"></bao-icon></span>
+    </button>
+  </bao-summary>
+</div>

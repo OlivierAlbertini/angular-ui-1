@@ -53,7 +53,7 @@ export const RadioSimple: Story = args => ({
   props: args,
   template: `
   <bao-radio-button-group id="RadioSimple" name="RadioSimple">
-    <bao-legend required="true">Radio button avec texte d'assistance</bao-legend>
+    <bao-label required="true">Radio button avec texte d'assistance</bao-label>
     <bao-radio-button id="ID012" name="name0" value="example1" inline="true">
       Label
     </bao-radio-button>
@@ -76,7 +76,7 @@ export const RadioWithDescriptionAndBorder: Story = args => ({
   props: args,
   template: `
   <bao-radio-button-group id="RadioWithDescriptionAndBorder" name="RadioWithDescriptionAndBorder">
-    <bao-legend required="true">Radio button avec erreur</bao-legend>
+    <bao-label required="true">Radio button avec erreur</bao-label>
     <bao-radio-button id="ID135678" name="name3" value="example1" brandBorder="true">
       Label
       <bao-radio-button-description>Est est et dolores dolore sed justo ipsum et sit.</bao-radio-button-description>
@@ -102,7 +102,7 @@ export const RadioWithDescAndHiddenLabel: Story = args => ({
   props: args,
   template: `
   <bao-radio-button-group id="RadioWithDescAndHiddenLabel" name="RadioWithDescAndHiddenLabel">
-    <bao-legend required="true">Radio button avec l'étiquette invisible</bao-legend>
+    <bao-label required="true">Radio button avec l'étiquette invisible</bao-label>
     <bao-radio-button id="ID119" name="name144" value="example1" brandBorder="true" hiddenLabel="true">
       Label
       <bao-radio-button-description>Est est et dolores dolore sed justo ipsum et sit.</bao-radio-button-description>

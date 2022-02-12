@@ -34,10 +34,10 @@ const Template: Story<BaoCheckboxComponent & { label: string }> = (
 ) => ({
   component: BaoCheckboxComponent,
   template: `
-  <bao-checkbox id="ID1" name="name" 
-  [disabled]="disabled" 
-  [checked]="checked" 
-  [hiddenLabel]="hiddenLabel" 
+  <bao-checkbox id="ID1" name="name"
+  [disabled]="disabled"
+  [checked]="checked"
+  [hiddenLabel]="hiddenLabel"
   [indeterminate]="indeterminate"
   [inline]="inline"
   [required]="required"
@@ -58,7 +58,7 @@ export const CheckboxSimple: Story = args => ({
   props: args,
   template: `
   <bao-checkbox-group>
-    <bao-legend required="true">Liste d'options</bao-legend>
+    <bao-label required="true">Liste d'options</bao-label>
     <bao-checkbox id="ID11111222" name="name">
       Label
     </bao-checkbox>
@@ -83,7 +83,7 @@ export const InlineCheckboxWithGuidingText: Story = args => ({
   props: args,
   template: `
   <bao-checkbox-group>
-    <bao-legend required="true">Liste d'options avec texte d'assistance</bao-legend>
+    <bao-label required="true">Liste d'options avec texte d'assistance</bao-label>
     <bao-checkbox id="ID121121" name="name11210" inline="true">
       Label
     </bao-checkbox>
@@ -109,7 +109,7 @@ export const CheckboxDescriptionError: Story = args => ({
   props: args,
   template: `
   <bao-checkbox-group>
-    <bao-legend required="true">Liste d'options avec erreur</bao-legend>
+    <bao-label required="true">Liste d'options avec erreur</bao-label>
     <bao-checkbox id="ID1111111111" name="name11111" brandBorder="true">
       Label
       <bao-checkbox-description>Est est et dolores dolore sed justo ipsum et sit.</bao-checkbox-description>
@@ -139,7 +139,7 @@ export const CheckboxDescriptionHiddenLabel: Story = args => ({
   props: args,
   template: `
   <bao-checkbox-group>
-    <bao-legend required="true">Liste d'options avec l'étiquette invisble</bao-legend>
+    <bao-label required="true">Liste d'options avec l'étiquette invisble</bao-label>
     <bao-checkbox id="ID11" name="name1" brandBorder="true" hiddenLabel="true">
       Label
       <bao-checkbox-description>Est est et dolores dolore sed justo ipsum et sit.</bao-checkbox-description>

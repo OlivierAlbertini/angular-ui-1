@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 import {
   BaoErrorTextComponent,
   BaoGuidingTextComponent,
-  BaoLegendTextComponent
+  BaoLabelTextComponent
 } from '.';
 
 const DIRECTIVES = [
   BaoErrorTextComponent,
-  BaoLegendTextComponent,
-  BaoGuidingTextComponent
+  BaoGuidingTextComponent,
+  BaoLabelTextComponent
 ];
 
 @NgModule({
